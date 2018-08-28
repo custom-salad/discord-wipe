@@ -38,9 +38,10 @@ There are various command-line flags you can use to configure each run. Items in
 3. Run `go build`
 
 ## How to run
-1. Grab your Discord authentication token - use the handy tutorial at [this link](https://github.com/appu1232/Discord-Selfbot/wiki/Installation-&-Setup#grab-your-token-from-discord)
-2. Put that token in a new file called `token.txt`
-3. Run the server from the command line using the flags above - for example:
+1. If you didn't compile, grab the latest release for your operating system [here](https://github.com/custom-salad/discord-wipe/releases)
+2. Grab your Discord authentication token - use the handy tutorial at [this link](https://github.com/appu1232/Discord-Selfbot/wiki/Installation-&-Setup#grab-your-token-from-discord)
+3. Put that token in a new file called `token.txt`
+4. Run the server from the command line using the flags above - for example:
 
 Windows: `wipe-windows.exe -server="1234" -exemptchannels="123,456" -waitmin=1000`
 
