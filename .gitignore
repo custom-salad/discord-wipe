@@ -1,0 +1,24 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Discord token
+token.txt
+
+# Windows executable (already covered above but for completeness' sake)
+wipe.exe
+
+# Mach-O binary
+wipe-darwin
+
+# ELF binary
+wipe-linux
